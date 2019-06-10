@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%
+}
+
+body {
+    /* height: 100% */
+    background-image: url("../images/gravel.png");
+}
+
+header {
+    /* margin: auto; */
+    background-color: #ffffff;
+    /* width: 960px; */
+    height: 60px;
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    /* overflow: hidden; */
+    border-bottom: 2px solid #cccccc;
+}
+
+#header-content {
+    margin: auto;
+    width: 960px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    /* text-align: center; */
+    /* margin-left: 230px; */
+
+}
+
+#header-name {
+    background-color: #4aaaa5;
+    /* padding: 15px; */
+    height: 58px;
+    /* text-align: center; */
+}
+
+#header-name h1 {
+    margin-top: 10px;
+    padding: 0 10px;
+}
+
+#nav-items {
+    
+}
+
+.nav-item {
+    display: inline-block;
+    margin-left: 20px;
+    color: #777777;
+}
+
+#main-section {
+    width: 960px;
+    background-color:#ffffff;
+    margin:  30px auto;
+    padding: 20px 40px;
+    margin-bottom: 225px;
+}
+
+h2 {
+    margin-top: 0;
+    color: #4aaaa5;
+}
+
+hr {
+    margin-bottom: 25px;
+}
+
+#profile-image {
+    float: left;
+    margin-right: 20px;
+}
+
+p {
+    margin-top: 0px;
+    line-height: 30px;
+    color: #777777;
+}
+
+footer {
+    clear: both;
+    height: 50px;
+    background-color: pink;
+    border-top: 8px solid #4aaaa5;
+    background-color: #666666;
+}
+
+footer span {
+    display: block;
+    color: yellow;
+    text-align: center;
+    margin-top: 20px;
+    color: #777777;
+    font-size: 12px;
+    
+}
+
+/* Contact Page ******************************************/
+
+.input {
+    width: 880px;
+    height: 30px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    color: #777777;
+}
+
+#message-input {
+    width: 880px;
+    height: 200px;
+    margin-top: 5px;
+}
+
+label {
+    color: #777777;
+}
+
+button {
+    width: 80px;
+    height: 30px;
+    margin-top: 10px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+
+}
+
+/* Portfolio Page *************************************************/
+
+.content-wrapper {
+    display: inline-block;
+    width: 300px;
+    height: 228px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.content-wrapper h3 {
+    text-align: center;
+    display: block;
+    padding-top: 13px;
+    color: #ffffff;
+   
+}
+
+.pic {
+    width: 100%;
+    
+}
+
+.text-wrapper {
+    height: 50px;
+    width: 100%;
+    position: relative;
+    margin-top: -30%;
+    background-color: #4aaaa5;
+
+}
