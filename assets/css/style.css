@@ -22,6 +22,11 @@ a:visited {
 
 /* Header *****/
 
+.nav-item a:link {
+    text-decoration: none;
+    color: #777777;
+}
+
 .nav-item a:visited {
     color: #777777;
 }
