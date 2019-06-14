@@ -41,20 +41,18 @@ header {
     background-color: #ffffff;
     height: 60px;
     width: 100%;
-    display: flex;
     border-bottom: 2px solid #cccccc;
 }
 
 #header-content {
     margin: auto;
     width: 960px;
-    display: flex;
-    justify-content: space-between;
 }
 
 #header-name {
     background-color: #4aaaa5;
     height: 58px;
+    float: left;
 }
 
 #header-name h1 {
@@ -62,6 +60,10 @@ header {
     padding: 15px 25px;
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: #ffffff; 
+}
+
+#nav-items {
+    float: right;
 }
 
 .nav-item {
