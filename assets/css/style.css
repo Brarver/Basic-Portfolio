@@ -23,6 +23,10 @@ a:visited {
 
 /* Header *****/
 
+h1 {
+    color: #ffffff;
+}
+
 .nav-item a:link {
     text-decoration: none;
     color: #777777;
