@@ -3,10 +3,6 @@
     box-sizing: border-box;
 }
 
-html {
-    height: 100%
-}
-
 body {
     margin: 0;
     background-image: url("../images/gravel.png");
@@ -41,29 +37,28 @@ header {
     margin-top: 0;
     background-color: #ffffff;
     height: 60px;
-    width: 100%;
     border-bottom: 2px solid #cccccc;
 }
 
-#header-content {
+.header-content {
     margin: auto;
     width: 960px;
 }
 
-#header-name {
+.header-name {
     background-color: #4aaaa5;
     height: 58px;
     float: left;
 }
 
-#header-name h1 {
+.header-name h1 {
     margin-top: 0px;
     padding: 15px 25px;
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: #ffffff; 
 }
 
-#nav-items {
+.nav-items {
     float: right;
 }
 
@@ -76,7 +71,7 @@ header {
 
 /* Main *****/
 
-#main-section {
+.main-section {
     width: 960px;
     background-color:#ffffff;
     margin:  30px auto;
@@ -99,8 +94,6 @@ hr {
 
 footer {
     position: fixed;
-    width: 100%;
-    clear: both;
     height: 60px;
     border-top: 8px solid #4aaaa5;
     background-color: #666666;
@@ -164,6 +157,14 @@ button {
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
+input:focus,
+#message-input:focus,
+button:focus {
+    outline: none !important;
+    border:2px solid #4aaaa5;
+    box-shadow: 0 0 5px #4aaaa5;
+}
+
 /* Portfolio Page *************************************************/
 
 .content-wrapper {
@@ -197,3 +198,5 @@ button {
 #steve {
     margin-bottom: 50px;
 }
+
+/**/
